@@ -1,22 +1,37 @@
-# Introduction
+# Group Member 
+| Name                  | Matric No     |
+| -------------         | -------  |
+| Ali Mohammed Ali Alattas| 1536481|
+| Mohammad Tahmid Lodi  | 1725491  |
+| Sultan Syafriyudi     | 1721899  |
 
-Describe the algorithms of your choice
 
-# Consideration
+# Introduction 
+We have taken Round Robin and Shortest Job First Scheduling.
 
-Describe what you have considered
 
-# Analysis
+# Consideration 
+Here we are considering that arrival time for all processes is 0.
 
-## FCFS
+#Analysis
+## FCFS 
+In this, the process that comes first will be executed first and next process starts only after the previous gets fully executed.
 
-Give an analysis of your algo and compare it with the other two
+Average waiting time = 18
 
-## Algo2
+Average turn around time = 25.2
 
-Give an analysis of your algo and compare it with the other two
+## RR 
+Round Robin is an easy to implement, it is preemptive algorithm. The newly created process is added to end of ready queue and generally employs time-sharing, giving each job a time slot or quantum.
 
-## Algo3
+Average waiting time = 22.2
 
-Give an analysis of your algo and compare it with the other two
+Average turn around time = 29.4
+## SJF 
+Shortest job first (SJF) or shortest job next, is a scheduling policy that selects the waiting process with the smallest execution time to execute next.
 
+SJN is a non-preemptive algorithm.
+
+Average waiting time = 10.6
+
+Average turn around time = 17.8
